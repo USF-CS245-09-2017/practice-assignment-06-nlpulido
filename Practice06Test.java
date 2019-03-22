@@ -73,7 +73,6 @@ public class Practice06Test {
 			} else {
 				System.out.println("[ XX ] One or more Queue functions appear incorrect.");
 			}
-			
 			stack.push(first);
 			stack.push(second);
 			if (stack.pop() == second && stack.pop() == first && stack.empty()) {
